@@ -14,4 +14,20 @@
         return USD_To_KSH_rate * $value;
     }
 
+// GPB to Ksh
+    function gbpTOKsh($value){
+        return GBP_To_KSH_rate * $value;
+    }
+
+// EUR to Ksh
+    function eurToKsh($value){
+        return EUR_To_KSH_rate * $value;
+    }
+
+// JPY to Ksh
+    function jpyToKsh($value){
+        return JPY_To_KSH_rate * $value;
+    }
+
+
     echo  "Ksh ".usdToKsh(13);
