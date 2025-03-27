@@ -30,4 +30,7 @@
     }
 
 
-    echo  "Ksh ".usdToKsh(13);
+   $usdtokes=usdToKsh(13);
+
+
+    require 'index.view.php';
